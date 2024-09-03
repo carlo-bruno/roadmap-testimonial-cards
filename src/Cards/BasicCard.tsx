@@ -2,7 +2,7 @@ import Avatar from "../components/Avatar";
 
 export default function BasicCard() {
   return (
-    <div className="max-w-md bg-white border border-gray-200 rounded-xl shadow px-8 py-4">
+    <div className="max-w-lg bg-white border border-gray-200 rounded-xl shadow px-8 py-4">
       {/* comment */}
       <div className="mb-3 font-normal text-black text-lg">
         <p className="text-left">
