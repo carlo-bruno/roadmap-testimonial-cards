@@ -4,8 +4,8 @@ export default function Avatar() {
       <img
         src="https://avatar.iran.liara.run/public/1" // 1-100
         alt="Luis Liara"
-        width={150}
-        height={150}
+        width={100}
+        height={100}
       />
     </div>
   );
