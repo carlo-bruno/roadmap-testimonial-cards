@@ -1,6 +1,7 @@
 import "./App.css";
 import BasicCard from "./Cards/BasicCard";
 import DialogBubbleCard from "./Cards/DialogBubbleCard";
+import DialogBubbleCardV2 from "./Cards/DialogBubbleCardV2";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         {/* TODO: masonry layout */}
         <BasicCard />
         <DialogBubbleCard />
+        <DialogBubbleCardV2 />
       </div>
     </main>
   );

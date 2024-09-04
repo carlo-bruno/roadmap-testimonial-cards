@@ -24,3 +24,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+/*
+  TODO: use @apply & @layer to reuse classes
+  see https://tailwindcss.com/docs/reusing-styles#extracting-classes-with-apply
+*/
