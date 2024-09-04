@@ -11,13 +11,12 @@ export default function DialogBubbleCard() {
         </div>
       </div>
       <div
-        className=" font-normal text-white text-lg bg-black rounded-2xl p-4 rounded-tl-none col-span-3 relative
-      before:block before:absolute before:-inset-x-3 before:-inset-y-0
-      before:w-0 before:h-0
-      before:border-t-[14px] before:border-t-black
-      before:border-l-[14px] before:border-l-transparent
-      before:rounded-tl-sm
-      "
+        className="font-normal text-white text-lg bg-black rounded-2xl px-4 py-2 rounded-tl-none col-span-3 relative h-min
+                    before:block before:absolute before:-inset-x-3 before:-inset-y-0
+                    before:w-0 before:h-0
+                    before:border-t-[14px] before:border-t-black
+                    before:border-l-[14px] before:border-l-transparent
+                    before:rounded-tl-sm"
       >
         <p className="text-left">
           Example of a dialog comment. Inspired by a chat message bubble. Lorem
